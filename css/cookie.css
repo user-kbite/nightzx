@@ -1,0 +1,45 @@
+p {
+    margin: 0;
+}
+
+.cookie-container {
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 1.2rem 1.3rem;
+    background-color: #2b2b2b;
+    color: #fff;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    z-index: 99;
+    opacity: 0;
+    transform: translateY(1rem);
+    animation: slideUp 0.5s forwards;
+}
+
+@keyframes slideUp {
+    to {
+        transform: initial;
+        opacity: initial;
+    }
+}
+
+.cookie-content {
+    font-size: 0.8rem;
+}
+
+.cookie-save {
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.cookie-save a {
+    background-color: #0e0e0e;
+    padding: 0.5rem;
+    transition: background-color .3s;
+}
+
+.cookie-save a:hover {
+    background-color: tomato;
+}

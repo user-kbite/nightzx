@@ -4,9 +4,45 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="wiidth=device-width, initial-scale=1.0">
 	<title>nightzx</title>
+	<meta name="title" content="nightzx | developer">
+    <meta name="description" content="by nightzx.">
+
+    <!-- Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nightzx.xyz/">
+    <meta property="og:title" content="nightzx | developer">
+    <meta property="og:description" content="by nightzx.">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/cookie.css">
 </head>
 <body>
-	<h1>nightzx in development...</h1>
-	<a href="https://github.com/user-kbite/nightzx" target="_blank">Github</a>
+	<header class="header">
+		<h1>nightzx</h1>
+	</header>
+
+	<section class="section-content">
+		<h2>Em Desevolvimento...</h2>
+	</section>
+
+	<footer>
+        <div id="copy">
+            <p>Copyright &copy; <span id="year"></span> nightzx. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+	<div class="cookie-container">
+		<div class="cookie-content">
+			<p>Ao usar esse site, você automaticamente concorda <br> com o uso de cookies.</p>
+		</div>
+		<div class="cookie-save">
+			<a onclick="cookieDimiss()">Aceitar</a>
+		</div>
+	</div>
+	<script src="./js/cookie.js"></script>
+	<script src="./js/year.js"></script>
 </body>
 </html>
