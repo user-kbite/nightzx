@@ -41,5 +41,13 @@ p {
 }
 
 .cookie-save a:hover {
-    background-color: tomato;
+    background-color: #5865F2;
+}
+
+@media (max-width: 968px) {
+    .cookie-container {
+        right: 0;
+        bottom: 0.5rem;
+        width: 100%;
+    }
 }
