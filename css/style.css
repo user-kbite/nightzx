@@ -81,7 +81,6 @@ footer {
     position: absolute;
     bottom: 20px;
     text-align: center;
-    /* background-color: #5865F2; */
 }
 
 @media (max-width: 968px) {
