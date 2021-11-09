@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.ntfnd {
+    font-family: 'Lexend Deca', sans-serif;
+    width: 100%;
+    position: relative;
+    height: 100vh;
+}
+
+.ntfnd-content {
+    text-align: center;
+    /* width: 800px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.ntfnd-content h1 {
+    font-size: 10rem;
+}
+
+.ntfnd-content h3 {
+    margin-top: -0.5rem;
+    margin-bottom: 1.2rem;
+    font-size: 2rem;
+}
+
+.ntfnd-content p {
+    font-size: 0.9rem;
+    margin-bottom: 1.2rem;
+}
+
+@media (max-width: 968px) {
+    .ntfnd-content h1 {
+        font-size: 7rem;
+    }
+}
