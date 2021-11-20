@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ffffff url(../img/bg-long.jpg) no-repeat center center fixed;
+    background-size: auto 1200px;
+    background-position: -500px 0;
+    animation-duration: 19s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-name: animatebackground;
+    animation-timing-function: linear;
+}
+
+@keyframes animatebackground {
+    from,
+    to {
+      background-size: auto 1200px;
+      background-position: 0px 0;
+    }
+    50% {
+      background-size: auto 1200px;
+      background-position: -500px 0;
+    }
+  }
+
+a {
+    text-decoration: none;
+    color: #603131;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 65px;
+    color: #603131;
+}
+
+.header h1 {
+    font-size: 1.7rem;
+    line-height: 1rem;
+    letter-spacing: 8px;
+}
+
+.header h1 span {
+    font-family: 'Comforter', cursive;
+    font-size: 2rem;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.header nav ul li {
+    margin: 0 0 0 1.5rem;
+}
+
+.header nav ul li a {
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.header nav ul li a.active {
+    border-bottom: 3px solid #603131;
+}
+
+.header nav ul li a.login {
+    border: 2px solid #603131;
+    padding: 8px 16px 8px 8px;
+    border-radius: 2rem;
+}
+
+.header nav ul li a i {
+    font-size: 1.3rem;
+    margin: 0 0.5rem 0 0;
+}
+
+.header nav ul a:hover {
+    border-bottom: 3px solid #603131;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main .container {
+    display: flex;
+}
+
+.main .container .text {
+    margin: 10rem 0 0 2rem;
+    color: #603131;
+}
+
+.main .container .text h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+}
+
+.main .container .text p {
+    font-size: 1.2rem;
+}
+
+.main .container .text p span {
+    background: linear-gradient(90deg, #a05252, #603131);
+    padding: 8px 16px 8px 8px;
+    color: #fff23d;
+    border-radius: 2rem;
+}
+
+.main .container .text p span i {
+    margin: 0 0.5rem 0 0.5rem;
+}
