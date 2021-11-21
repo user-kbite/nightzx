@@ -15,12 +15,13 @@
 	<header class="header">
 		<h1>Night Play<br><span>Role play</span></h1>
 		<nav>
-			<ul>
+			<ul id="nav">
 				<li><a href="#" class="active"><i class="fa fa-home"></i> Início</a></li>
 				<li><a href="#"><i class="fa fa-shopping-cart"></i> Loja</a></li>
 				<li><a href="#"><i class="fa fa-info"></i> Sobre</a></li>
 				<li><a href="#" class="login"><i class="fa fa-user"></i> Login In</a></li>
 			</ul>
+			<a href="#" id="mobile"><i class="fa fa-bars"></i></a>
 		</nav>
 	</header>
 
@@ -33,5 +34,14 @@
 			</div>
 		</div>
 	</main>
+
+	<script>
+		const btnMobile = document.getElementById('mobile');
+		const nav = document.getElementById('nav')
+
+		btnMobile.addEventListener('click', function(){
+			nav.classList.toggle('active');
+		})
+	</script>
 </body>
 </html>
