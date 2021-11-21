@@ -164,10 +164,6 @@ a {
         margin: 30px;
     }
 
-    .header nav ul li a {
-        /* font-size: 1.2rem; */
-    }
-
     .main .container {
         flex-direction: column;
         align-items: center;
@@ -176,5 +172,14 @@ a {
     .main .container .text {
         text-align: center;
         margin: 3rem 0;
+    }
+
+    .main .container .text h2 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .main .container .text p {
+        font-size: 1rem;
     }
 }
